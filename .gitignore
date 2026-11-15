@@ -1,0 +1,10 @@
+# Blender files over 50 MB are kept locally only (GitHub rejects files over 100 MB)
+PEDs/Uptown Girls/Molly Gunn/Meshy_AI_Molly_Gunn.blend
+PEDs/Good Girl's Guide to Murder/Cara_Ward/Blender/Cara_Ward_173cm.blend
+PEDs/Good Girl's Guide to Murder/Cara_Ward/Blender/Cara_Ward_v19.blend
+PEDs/Uptown Girls/Ray Schleine/Blender/Ray_Schleine_132cm.blend
+PEDs/Uptown Girls/Ray Schleine/Blender/Meshy_AI_Ray_Schleine.blend
+
+# Blender autosave / backup files
+*.blend1
+*.blend2
