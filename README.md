@@ -28,9 +28,11 @@ Each character is generated with **Meshy AI**, then cleaned up, rigged and expor
 - Most peds **replace** a base-game model. Any NPC that would normally spawn as that model will also look like the custom character.
 - Goody Addams is an **add-on** ped. It registers its own model through `peds.meta` and does not replace anything.
 
-Some characters have their own README in their folder with more detail and screenshots (for example, [Cara Ward](PEDs/Good%20Girl's%20Guide%20to%20Murder/Cara_Ward/README.md) and [Enid Sinclair](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/README.md)).
+Some characters have their own README in their folder with more detail and screenshots (for example, [Cara Ward](PEDs/Good%20Girl's%20Guide%20to%20Murder/Cara_Ward/README.md), [Enid Sinclair](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/README.md) and [Goody Addams](PEDs/Wednesday%20Netflix%20Series/Goody%20Addams/README.md)).
 
-![Enid Sinclair in game](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/Screenshots/20261115215847_1.jpg)
+| Enid Sinclair | Goody Addams |
+|---|---|
+| ![Enid Sinclair in game](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/Screenshots/20261115215847_1.jpg) | ![Goody Addams in game](PEDs/Wednesday%20Netflix%20Series/Goody%20Addams/Screenshots/20261115222308_1.jpg) |
 
 ---
 
