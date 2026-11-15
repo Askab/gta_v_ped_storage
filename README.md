@@ -17,6 +17,7 @@ Each character is generated with **Meshy AI**, then cleaned up, rigged and expor
 | Uptown Girls | [Ray Schleine](PEDs/Uptown%20Girls/Ray%20Schleine/) | default, 132 cm | Gen 9 | `u_f_y_comjane` | `/mprped` | ✅ Ready |
 | Uptown Girls | Molly Gunn | – | – | – | – | 🚧 In progress (not uploaded yet) |
 | Wednesday (Netflix) | [Wednesday Addams](PEDs/Wednesday%20Netflix%20Series/Wednesday%20Addams/) | default, 155 cm | Gen 8, Gen 9 | `u_f_y_bikerchic` | `/wednesday` | ✅ Ready |
+| Wednesday (Netflix) | [Enid Sinclair](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/) | default, 160 cm | Gen 8, Gen 9 | `a_f_y_hipster_01` | `/enid` | ✅ Ready |
 | Wednesday (Netflix) | [Goody Addams](PEDs/Wednesday%20Netflix%20Series/Goody%20Addams/) | default, 155 cm | Gen 9 | `goody_addams` (add-on) | `/goody_addams` | ✅ Ready |
 
 **Builds:**
@@ -27,7 +28,9 @@ Each character is generated with **Meshy AI**, then cleaned up, rigged and expor
 - Most peds **replace** a base-game model. Any NPC that would normally spawn as that model will also look like the custom character.
 - Goody Addams is an **add-on** ped. It registers its own model through `peds.meta` and does not replace anything.
 
-Some characters have their own README in their folder with more detail (for example, [Cara Ward](PEDs/Good%20Girl's%20Guide%20to%20Murder/Cara_Ward/README.md)).
+Some characters have their own README in their folder with more detail and screenshots (for example, [Cara Ward](PEDs/Good%20Girl's%20Guide%20to%20Murder/Cara_Ward/README.md) and [Enid Sinclair](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/README.md)).
+
+![Enid Sinclair in game](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/Screenshots/20261115215847_1.jpg)
 
 ---
 
@@ -38,6 +41,7 @@ PEDs/
 └─ <Series>/
    └─ <Character>/
       ├─ Blender/                    .blend source files (files over 50 MB are not uploaded)
+      ├─ Screenshots/                in-game screenshots (optional)
       ├─ default_height/
       │  ├─ gen8_legacy/             FiveM resource for GTA V Legacy
       │  └─ gen9_enhanced/           FiveM resource for GTA V Enhanced
