@@ -2,6 +2,6 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'muto'
-description 'muto_ped_rig: Wednesday Addams (Gen9 / Enhanced) replacing u_f_y_poppymich'
+description 'Wednesday Addams - default height (192 cm), Gen9 / Enhanced (replaces u_f_y_poppymich)'
 
 client_script 'client.lua'
