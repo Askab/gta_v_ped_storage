@@ -16,7 +16,7 @@ Each character is generated with **Meshy AI**, then cleaned up, rigged and expor
 | A Good Girl's Guide to Murder | [Pippa Fitz-Amobi](PEDs/Good%20Girl's%20Guide%20to%20Murder/Pippa_Fitz_Amobi/) | default | Gen 9 | `ig_tanisha` | – | 🚧 Raw stream files only (no resource yet) |
 | Uptown Girls | [Ray Schleine](PEDs/Uptown%20Girls/Ray%20Schleine/) | default, 132 cm | Gen 9 | `u_f_y_comjane` | `/mprped` | ✅ Ready |
 | Uptown Girls | Molly Gunn | – | – | – | – | 🚧 In progress (not uploaded yet) |
-| Wednesday (Netflix) | [Wednesday Addams](PEDs/Wednesday%20Netflix%20Series/Wednesday%20Addams/) | default, 155 cm | Gen 8, Gen 9 | `u_f_y_bikerchic` | `/wednesday` | ✅ Ready |
+| Wednesday (Netflix) | [Wednesday Addams](PEDs/Wednesday%20Netflix%20Series/Wednesday%20Addams/) | default | Gen 9 | `u_f_y_poppymich` | `/wednesday_addams` | ✅ Ready |
 | Wednesday (Netflix) | [Enid Sinclair](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/) | default, 160 cm | Gen 8, Gen 9 | `a_f_y_hipster_01` | `/enid` | ✅ Ready |
 | Wednesday (Netflix) | [Goody Addams](PEDs/Wednesday%20Netflix%20Series/Goody%20Addams/) | default, 155 cm | Gen 9 | `goody_addams` (add-on) | `/goody_addams` | ✅ Ready |
 
@@ -28,11 +28,11 @@ Each character is generated with **Meshy AI**, then cleaned up, rigged and expor
 - Most peds **replace** a base-game model. Any NPC that would normally spawn as that model will also look like the custom character.
 - Goody Addams is an **add-on** ped. It registers its own model through `peds.meta` and does not replace anything.
 
-Some characters have their own README in their folder with more detail and screenshots (for example, [Cara Ward](PEDs/Good%20Girl's%20Guide%20to%20Murder/Cara_Ward/README.md), [Enid Sinclair](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/README.md) and [Goody Addams](PEDs/Wednesday%20Netflix%20Series/Goody%20Addams/README.md)).
+Some characters have their own README in their folder with more detail and screenshots (for example, [Cara Ward](PEDs/Good%20Girl's%20Guide%20to%20Murder/Cara_Ward/README.md), [Wednesday Addams](PEDs/Wednesday%20Netflix%20Series/Wednesday%20Addams/README.md), [Enid Sinclair](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/README.md) and [Goody Addams](PEDs/Wednesday%20Netflix%20Series/Goody%20Addams/README.md)).
 
-| Enid Sinclair | Goody Addams |
-|---|---|
-| ![Enid Sinclair in game](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/Screenshots/20261115215847_1.jpg) | ![Goody Addams in game](PEDs/Wednesday%20Netflix%20Series/Goody%20Addams/Screenshots/20261115222308_1.jpg) |
+| Wednesday Addams | Enid Sinclair | Goody Addams |
+|---|---|---|
+| ![Wednesday Addams in game](PEDs/Wednesday%20Netflix%20Series/Wednesday%20Addams/Screenshots/20261119022917_1.jpg) | ![Enid Sinclair in game](PEDs/Wednesday%20Netflix%20Series/Enid%20Sinclair/Screenshots/20261115215847_1.jpg) | ![Goody Addams in game](PEDs/Wednesday%20Netflix%20Series/Goody%20Addams/Screenshots/20261115222308_1.jpg) |
 
 ---
 
@@ -70,16 +70,16 @@ Each FiveM resource folder contains:
 
 ## Installation (FiveM)
 
-1. **Pick one resource folder** for the character, for example `PEDs/Wednesday Netflix Series/Wednesday Addams/155cm/gen9_enhanced`.
+1. **Pick one resource folder** for the character, for example `PEDs/Wednesday Netflix Series/Enid Sinclair/160cm/gen9_enhanced`.
    - Choose the height you want.
    - Choose the build that matches your server: `gen8_legacy` for Legacy, `gen9_enhanced` for Enhanced.
-2. **Copy the folder** into your server's `resources/` directory and give it a simple name without spaces, for example `wednesday_155`.
+2. **Copy the folder** into your server's `resources/` directory and give it a simple name without spaces, for example `enid_160`.
 3. **Add it to `server.cfg`:**
    ```cfg
-   ensure wednesday_155
+   ensure enid_160
    ```
-4. **Restart the server**, or run `refresh` and then `ensure wednesday_155` in the server console.
-5. **Join the server** and type the character's chat command (see the table above), for example `/wednesday`. The F8 console also works.
+4. **Restart the server**, or run `refresh` and then `ensure enid_160` in the server console.
+5. **Join the server** and type the character's chat command (see the table above), for example `/enid`. The F8 console also works.
 
 ### Things to know
 

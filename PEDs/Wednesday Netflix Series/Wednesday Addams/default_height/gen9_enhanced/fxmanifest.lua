@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'Wednesday Addams (190 cm, Enhanced) - replaces u_f_y_bikerchic. Command: /wednesday'
-version '1.1.0'
+author 'muto'
+description 'muto_ped_rig: Wednesday Addams (Gen9 / Enhanced) replacing u_f_y_poppymich'
 
 client_script 'client.lua'
